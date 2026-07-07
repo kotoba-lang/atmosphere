@@ -3,4 +3,4 @@
             [atmosphere]))
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? atmosphere))))
+    (is (some? (find-ns 'atmosphere)))))
