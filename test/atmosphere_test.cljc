@@ -9,7 +9,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'atmosphere)))))
+    (is (some? (find-ns 'atmosphere)))))
 
 ;; ════════════════════════════════════════════════════════════════════════
 ;; from src/lib.rs
