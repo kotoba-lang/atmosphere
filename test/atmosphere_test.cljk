@@ -3,7 +3,7 @@
   kami-atmosphere's `src/lib.rs` and `src/wind_field.rs` (deleted from
   kotoba-lang/kami-engine in PR #82), plus a smoke test for the restored
   CLJC namespace (ADR-2607010930, com-junkawasaki/root)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [atmosphere :as atmosphere]
             [atmosphere.wind-field :as wind-field]))
 
